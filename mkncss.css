@@ -1,0 +1,72 @@
+@charset="utf-8"
+    
+body{
+font-family:"Avenir Next";
+}
+
+.header {
+    background-color: #FFCC00;
+    height:60px
+}
+
+.header-logo{
+    float:left;
+    padding: 18px;
+    color:white;
+    font-family: 'ＭＳ ゴシック', 
+sans-serif;
+    font-size: 20px;
+}
+
+.header-list li{
+    list-style:none;
+    float:right;
+    padding:20px 10px 20px 10px;
+    color:white;
+    font-family: 'ＭＳ ゴシック', 
+sans-serif;
+    font-size: 13px
+}
+
+
+.section-title{
+    border-bottom: 2px solid #FFCC00;
+}
+p{
+    font-size: 13px
+}
+span{
+    color: #FFCC00;
+}
+.contents{
+    height:150px
+}
+
+
+
+
+
+
+.footer{
+       background-color:gainsboro;
+    height:200px 
+}
+
+.footer-logo{
+    float:left;
+    padding:10px;
+    color:darkslategray;
+    font-family: 'ＭＳ ゴシック', 
+sans-serif;
+    font-size: 20px;
+}
+
+.footer-list li{
+    list-style:none;
+    float:left;
+    padding:95px 500px;
+    color:darkslategray;
+    font-family: 'ＭＳ ゴシック', 
+sans-serif;
+    font-size: 15px;
+}
