@@ -1,9 +1,10 @@
 @charset="utf-8"
-    
+
+/*2.body*/ 
 body{
 font-family:"Avenir Next";
 }
-
+/*2-1.header*/ 
 .header {
     background-color: #FFCC00;
     height:60px
@@ -11,11 +12,10 @@ font-family:"Avenir Next";
 
 .header-logo{
     float:left;
-    padding: 18px;
+    padding: 1px;
     color:white;
     font-family: 'ＭＳ ゴシック', 
 sans-serif;
-    font-size: 20px;
 }
 
 .header-list li{
@@ -28,25 +28,34 @@ sans-serif;
     font-size: 13px
 }
 
-
-.section-title{
-    border-bottom: 2px solid #FFCC00;
+/*2-2.main*/ 
+.copy-container{
+    height:280px;
 }
+
 p{
-    font-size: 13px
+    font-size: 12px
 }
 span{
     color: #FFCC00;
 }
+.section-title{
+    height:5px;
+}
 .contents{
-    height:150px
+    height:350px
+}
+
+.contents-section-title{
+    border-bottom:2px solid #FFCC00;
+}
+.contents-item{
+    float:left;
+    padding: 10px
 }
 
 
-
-
-
-
+/*2-3.footer*/
 .footer{
        background-color:gainsboro;
     height:200px 
@@ -58,7 +67,7 @@ span{
     color:darkslategray;
     font-family: 'ＭＳ ゴシック', 
 sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .footer-list li{
@@ -68,5 +77,5 @@ sans-serif;
     color:darkslategray;
     font-family: 'ＭＳ ゴシック', 
 sans-serif;
-    font-size: 15px;
+    font-size: 12px;
 }
