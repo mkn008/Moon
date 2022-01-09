@@ -7,43 +7,47 @@ font-family:"Avenir Next";
 /*2-1.header*/ 
 .header {
     background-color: #FFCC00;
-    height:60px
+    height:250px
 }
 
 .header-logo{
     float:left;
-    padding: 1px;
+    padding: 90px;
     color:white;
     font-family: 'ＭＳ ゴシック', 
 sans-serif;
 }
 
+.header-list{
+    padding:180px 90px 10px 10px;
+}
 .header-list li{
     list-style:none;
     float:right;
-    padding:20px 10px 20px 10px;
+    padding:0px 20px;
     color:white;
     font-family: 'ＭＳ ゴシック', 
 sans-serif;
-    font-size: 13px
+    font-size: 18px
 }
 
 /*2-2.main*/ 
 .copy-container{
-    height:280px;
+    height:650px;
 }
 
 p{
-    font-size: 12px
+    font-size: 18px
 }
 span{
-    color: #FFCC00;
+    color: 	#CC0000;
 }
 .section-title{
+    font-size: 13px;
     height:5px;
 }
 .contents{
-    height:350px
+    height:400px
 }
 
 .contents-section-title{
@@ -55,27 +59,56 @@ span{
 }
 
 
+
+
+
+a:hover img {
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+  /*画像を70%の不透明度に*/
+}
+.link-button1:hover {
+    background: #FFCC00;/*背景を黄色に*/
+    padding:5px 10px;/*内側の余白*/
+    border-radius: 20px;/*角を丸くする*/
+}
+
+a{
+    text-decoration: none;
+    color: white;/*文字を白に*/
+}
+.link-button1 {
+    background: darkslategray;/*背景をネイビーに*/
+    padding:5px 10px;/*内側の余白*/
+    border-radius: 20px;/*角を丸くする*/
+}
+
+
+
+
+
 /*2-3.footer*/
 .footer{
        background-color:gainsboro;
-    height:200px 
+    height: 80px 
 }
 
 .footer-logo{
     float:left;
-    padding:10px;
+    padding:20px 90px;
     color:darkslategray;
     font-family: 'ＭＳ ゴシック', 
 sans-serif;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .footer-list li{
     list-style:none;
-    float:left;
-    padding:95px 500px;
+    float:right;
+    padding:40px 90px 0px 0px;
     color:darkslategray;
     font-family: 'ＭＳ ゴシック', 
 sans-serif;
-    font-size: 12px;
+    font-size: 13px;
 }
