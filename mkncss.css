@@ -12,7 +12,7 @@ font-family:"Avenir Next";
 
 .header-logo{
     float:left;
-    padding: 90px;
+    padding: 60px 90px;
     color:white;
     font-family: 'ＭＳ ゴシック', 
 sans-serif;
@@ -28,16 +28,16 @@ sans-serif;
     color:white;
     font-family: 'ＭＳ ゴシック', 
 sans-serif;
-    font-size: 18px
+    font-size: 15px
 }
 
 /*2-2.main*/ 
 .copy-container{
-    height:650px;
+    height:400px;
 }
 
 p{
-    font-size: 18px
+    font-size: 15px
 }
 span{
     color: 	#CC0000;
@@ -100,7 +100,7 @@ a{
     color:darkslategray;
     font-family: 'ＭＳ ゴシック', 
 sans-serif;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .footer-list li{
